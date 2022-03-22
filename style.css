@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+body {
+    background-color: darkgreen
+}
+.back {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+h1	{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin: 0px;
+    background-size: auto;
+    background-color: darkgreen;
+    color: white
+}
+h4 {
+    background-color: ;
+    margin: 0px;
+    font-weight: 20px;
+    color: darkgreen
+}
+h5 {
+    font-family: 'Klee One', cursive;
+    font-size: 110%;
+    margin: 10px;
+    color: darkgreen;
+    border-bottom: solid 3px darkgreen;
+    position: relative
+}
+h5:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px greenyellow;
+    bottom: -3px;
+    width: 30%
+}
+p {
+    font-family: 'Klee One', cursive;
+    font-size: 85%;
+    margin: 5px;
+    color: black
+}
+a {
+    font-family: 'Klee One', cursive;
+    margin: 5px;
+    color: black
+}
+.ft {
+    background-color: greenyellow;
+    padding-bottom: 20px;
+}
+footer {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: darkgreen;
+    padding-top: 20px
+}
+div.s {
+    margin: 5px
+}
+.btn {
+    font-family: 'Klee One', cursive;
+    margin: 2px;
+    width: 47%;
+    display: inline-block;
+    border-radius: 5%;
+    font-size: 70%;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: darkgreen;
+    line-height: 2em;
+    opacity: 1;
+    transition: 0.5s;
+    text-decoration: none;
+    vertical-align: top
+}
+.btn:hover {
+    background-color: greenyellow
+}
